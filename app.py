@@ -29,7 +29,7 @@ cl2.video("WhatsApp Video 2024-01-29 at 10.22.07 AM.mp4", 'rb')
 st.markdown("##")
 
 st.subheader("2. Análisis de Datos para Todos")
-st.write("Tableros de inteligencia de negocios personalizados.")
+st.write("Tableros de inteligencia de negocios personalizados")
 
 def cargar_datos():
     df = pd.read_csv('datos_dummy_vehiculos.csv')
@@ -86,7 +86,7 @@ col2.dataframe(ventas_y_unidades)
 st.markdown("####")
 
 st.subheader("3. Automatización de Procesos y Aplicaciones Integrales")
-st.write("Utilizando las herramientas más versátiles y avanzadas del mercado, desarrollamos soluciones a la medida a una velocidad incomparable.")
+st.write("Utilizando las herramientas más versátiles y avanzadas del mercado, desarrollamos soluciones a la medida a una velocidad incomparable")
 st.markdown("###")
 col1, col2, col3 = st.columns(3)
 
