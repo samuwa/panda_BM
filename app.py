@@ -6,10 +6,12 @@ from datetime import datetime
 
 st.set_page_config(layout='wide')
 
+st.title("PanDa :panda_face:")
+st.write("**Panama Data Consulting**")
+st.markdown("##")
+
 cl1, cl2, cl3 = st.columns([3,3,3])
-cl2.title("PanDa :panda_face:")
-cl2.write("**Panama Data Consulting**")
-cl2.markdown("##")
+
 
 
 cl2.subheader("1. Chatbots Brillantes")
