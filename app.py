@@ -13,7 +13,7 @@ st.markdown("##")
 st.subheader("1. Chatbots Brillantes")
 st.write("Asistentes virtuales potenciados por *ChatGPT*")
 st.write(" - Entrenados con información pública y privada")
-st.write(" - Disponibiles 24/7")
+st.write(" - Disponibles 24/7")
 st.write(" - Capaces de captar datos y generar reportes")
 
 cl1, cl2, cl3 = st.columns([3,3,3])
@@ -98,11 +98,14 @@ col3.image("chatgpt logo.png")
 col1, col2, col3 = st.columns(3)
 
 
-col1.write("Python es el lenguaje número 1 entre desarroladores de software. En PanDa :panda_face:, Python es la base de todas nuestras soluciones.")
+with col1.expander("Python"):
+    st.write("Python es el lenguaje número 1 entre desarroladores de software. En PanDa :panda_face:, Python es la base de todas nuestras soluciones.")
 
 
-col2.write("Existen infinitas alternativas para desarrollar aplicaciones, pero ninguna como Bubble. Por su velocidad y versatilidad, Bubble es nuestra herramienta de elección para el desarrollo de *business apps* personalizadas.")
+with col2.expander("Bubble.io"):
+    st.write("Existen infinitas alternativas para desarrollar aplicaciones, pero ninguna como Bubble. Por su velocidad y versatilidad, Bubble es nuestra herramienta de elección para el desarrollo de *business apps* personalizadas.")
 
 
-col3.write("El mundo cambió con ChatGPT, aunque no todo el mundo se haya dado cuenta. La innovación del presente depende de implementar inteligencia artificial en la operación continua de cualquier organización. ChatGPT abrió el universo de la inteligencia artificial para todo el que quiera aprovecharlo, nosotros ya nos montamos en la ola. :surfer:")
+with col3.expander("ChatGPT"):
+    st.write("El mundo cambió con ChatGPT, aunque no todo el mundo se haya dado cuenta. La innovación del presente depende de implementar inteligencia artificial en la operación continua de cualquier organización. ChatGPT abrió el universo de la inteligencia artificial para todo el que quiera aprovecharlo, nosotros ya nos montamos en la ola. :surfer:")
 
