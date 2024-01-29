@@ -10,15 +10,17 @@ st.title("PanDa :panda_face:")
 st.write("**Panama Data Consulting**")
 st.markdown("##")
 
+st.subheader("1. Chatbots Brillantes")
+st.write("Asistentes virtuales potenciados por *ChatGPT*")
+st.write(" - Entrenados con información pública y privada")
+st.write(" - Disponibilidad 24/7")
+st.write(" - Capacidad de captar datos y generar reportes")
+
 cl1, cl2, cl3 = st.columns([3,3,3])
 
 
 
-cl2.subheader("1. Chatbots Brillantes")
-cl2.write("Asistentes virtuales potenciados por *ChatGPT*")
-cl2.write(" - Entrenados con información pública y privada")
-cl2.write(" - Disponibilidad 24/7")
-cl2.write(" - Capacidad de captar datos y generar reportes")
+
 
 
 
