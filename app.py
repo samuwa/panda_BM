@@ -4,7 +4,7 @@ import plotly.express as px
 import numpy as np
 from datetime import datetime
 
-st.page_config(layout='wide')
+st.set_page_config(layout='wide')
 
 cl1, cl2, cl3 = st.columns([3,3,3])
 cl2.title("PanDa :panda_face:")
